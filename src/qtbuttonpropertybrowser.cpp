@@ -623,3 +623,5 @@ bool QtButtonPropertyBrowser::isExpanded(QtBrowserItem *item) const
 #if QT_VERSION >= 0x040400
 QT_END_NAMESPACE
 #endif
+
+#include "moc_qtbuttonpropertybrowser.cpp"

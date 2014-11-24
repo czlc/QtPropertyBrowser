@@ -2022,3 +2022,5 @@ void QtAbstractPropertyBrowser::setCurrentItem(QtBrowserItem *item)
 #if QT_VERSION >= 0x040400
 QT_END_NAMESPACE
 #endif
+
+#include "moc_qtpropertybrowser.cpp"
