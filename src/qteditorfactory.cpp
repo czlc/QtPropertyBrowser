@@ -2699,6 +2699,3 @@ void QtFontEditorFactory::disconnectPropertyManager(QtFontPropertyManager *manag
 #if QT_VERSION >= 0x040400
 QT_END_NAMESPACE
 #endif
-
-#include "moc_qteditorfactory.cpp"
-#include "qteditorfactory.moc"

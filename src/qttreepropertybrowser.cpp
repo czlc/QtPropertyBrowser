@@ -483,8 +483,13 @@ void QtTreePropertyBrowserPrivate::init(QWidget *parent)
     m_delegate = new QtPropertyEditorDelegate(parent);
     m_delegate->setEditorPrivate(this);
     m_treeWidget->setItemDelegate(m_delegate);
+#if QT_VERSION >= 0x050000
+    m_treeWidget->header()->setSectionsMovable(false);
+    m_treeWidget->header()->setSectionResizeMode(QHeaderView::Stretch);
+#else
     m_treeWidget->header()->setMovable(false);
     m_treeWidget->header()->setResizeMode(QHeaderView::Stretch);
+#endif
 
     m_expandIcon = drawIndicatorIcon(q_ptr->palette(), q_ptr->style());
 
@@ -896,7 +901,11 @@ void QtTreePropertyBrowser::setResizeMode(QtTreePropertyBrowser::ResizeMode mode
         case QtTreePropertyBrowser::Stretch:
         default:                                      m = QHeaderView::Stretch;          break;
     }
+#if QT_VERSION >= 0x050000
+    d_ptr->m_treeWidget->header()->setSectionResizeMode(m);
+#else
     d_ptr->m_treeWidget->header()->setResizeMode(m);
+#endif
 }
 
 /*!
@@ -1074,6 +1083,3 @@ void QtTreePropertyBrowser::editItem(QtBrowserItem *item)
 #if QT_VERSION >= 0x040400
 QT_END_NAMESPACE
 #endif
-
-#include "moc_qttreepropertybrowser.cpp"
-#include "qttreepropertybrowser.moc"
