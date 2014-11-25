@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'qteditorfactory.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.3.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'qteditorfactory.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.3.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,12 +20,12 @@
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_QtSpinBoxFactory_t {
     QByteArrayData data[9];
-    char stringdata[143];
+    char stringdata[142];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtSpinBoxFactory_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtSpinBoxFactory_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtSpinBoxFactory_t qt_meta_stringdata_QtSpinBoxFactory = {
     {
@@ -42,7 +42,7 @@ QT_MOC_LITERAL(8, 122, 19)
     "QtSpinBoxFactory\0slotPropertyChanged\0"
     "\0QtProperty*\0slotRangeChanged\0"
     "slotSingleStepChanged\0slotReadOnlyChanged\0"
-    "slotSetValue\0slotEditorDestroyed\0"
+    "slotSetValue\0slotEditorDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -60,12 +60,12 @@ static const uint qt_meta_data_QtSpinBoxFactory[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    2,   44,    2, 0x08,
-       4,    3,   49,    2, 0x08,
-       5,    2,   56,    2, 0x08,
-       6,    2,   61,    2, 0x08,
-       7,    1,   66,    2, 0x08,
-       8,    1,   69,    2, 0x08,
+       1,    2,   44,    2, 0x08 /* Private */,
+       4,    3,   49,    2, 0x08 /* Private */,
+       5,    2,   56,    2, 0x08 /* Private */,
+       6,    2,   61,    2, 0x08 /* Private */,
+       7,    1,   66,    2, 0x08 /* Private */,
+       8,    1,   69,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::Int,    2,    2,
@@ -131,12 +131,12 @@ int QtSpinBoxFactory::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 struct qt_meta_stringdata_QtSliderFactory_t {
     QByteArrayData data[8];
-    char stringdata[122];
+    char stringdata[121];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtSliderFactory_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtSliderFactory_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtSliderFactory_t qt_meta_stringdata_QtSliderFactory = {
     {
@@ -152,7 +152,7 @@ QT_MOC_LITERAL(7, 101, 19)
     "QtSliderFactory\0slotPropertyChanged\0"
     "\0QtProperty*\0slotRangeChanged\0"
     "slotSingleStepChanged\0slotSetValue\0"
-    "slotEditorDestroyed\0"
+    "slotEditorDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -170,11 +170,11 @@ static const uint qt_meta_data_QtSliderFactory[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    2,   39,    2, 0x08,
-       4,    3,   44,    2, 0x08,
-       5,    2,   51,    2, 0x08,
-       6,    1,   56,    2, 0x08,
-       7,    1,   59,    2, 0x08,
+       1,    2,   39,    2, 0x08 /* Private */,
+       4,    3,   44,    2, 0x08 /* Private */,
+       5,    2,   51,    2, 0x08 /* Private */,
+       6,    1,   56,    2, 0x08 /* Private */,
+       7,    1,   59,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::Int,    2,    2,
@@ -238,12 +238,12 @@ int QtSliderFactory::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 struct qt_meta_stringdata_QtScrollBarFactory_t {
     QByteArrayData data[8];
-    char stringdata[125];
+    char stringdata[124];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtScrollBarFactory_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtScrollBarFactory_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtScrollBarFactory_t qt_meta_stringdata_QtScrollBarFactory = {
     {
@@ -259,7 +259,7 @@ QT_MOC_LITERAL(7, 104, 19)
     "QtScrollBarFactory\0slotPropertyChanged\0"
     "\0QtProperty*\0slotRangeChanged\0"
     "slotSingleStepChanged\0slotSetValue\0"
-    "slotEditorDestroyed\0"
+    "slotEditorDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -277,11 +277,11 @@ static const uint qt_meta_data_QtScrollBarFactory[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    2,   39,    2, 0x08,
-       4,    3,   44,    2, 0x08,
-       5,    2,   51,    2, 0x08,
-       6,    1,   56,    2, 0x08,
-       7,    1,   59,    2, 0x08,
+       1,    2,   39,    2, 0x08 /* Private */,
+       4,    3,   44,    2, 0x08 /* Private */,
+       5,    2,   51,    2, 0x08 /* Private */,
+       6,    1,   56,    2, 0x08 /* Private */,
+       7,    1,   59,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::Int,    2,    2,
@@ -345,12 +345,12 @@ int QtScrollBarFactory::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 struct qt_meta_stringdata_QtCheckBoxFactory_t {
     QByteArrayData data[7];
-    char stringdata[108];
+    char stringdata[107];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtCheckBoxFactory_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtCheckBoxFactory_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtCheckBoxFactory_t qt_meta_stringdata_QtCheckBoxFactory = {
     {
@@ -364,7 +364,7 @@ QT_MOC_LITERAL(6, 87, 19)
     },
     "QtCheckBoxFactory\0slotPropertyChanged\0"
     "\0QtProperty*\0slotTextVisibleChanged\0"
-    "slotSetValue\0slotEditorDestroyed\0"
+    "slotSetValue\0slotEditorDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -382,10 +382,10 @@ static const uint qt_meta_data_QtCheckBoxFactory[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    2,   34,    2, 0x08,
-       4,    2,   39,    2, 0x08,
-       5,    1,   44,    2, 0x08,
-       6,    1,   47,    2, 0x08,
+       1,    2,   34,    2, 0x08 /* Private */,
+       4,    2,   39,    2, 0x08 /* Private */,
+       5,    1,   44,    2, 0x08 /* Private */,
+       6,    1,   47,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::Bool,    2,    2,
@@ -447,12 +447,12 @@ int QtCheckBoxFactory::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 struct qt_meta_stringdata_QtDoubleSpinBoxFactory_t {
     QByteArrayData data[10];
-    char stringdata[169];
+    char stringdata[168];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtDoubleSpinBoxFactory_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtDoubleSpinBoxFactory_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtDoubleSpinBoxFactory_t qt_meta_stringdata_QtDoubleSpinBoxFactory = {
     {
@@ -471,7 +471,7 @@ QT_MOC_LITERAL(9, 148, 19)
     "\0QtProperty*\0slotRangeChanged\0"
     "slotSingleStepChanged\0slotDecimalsChanged\0"
     "slotReadOnlyChanged\0slotSetValue\0"
-    "slotEditorDestroyed\0"
+    "slotEditorDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -489,13 +489,13 @@ static const uint qt_meta_data_QtDoubleSpinBoxFactory[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    2,   49,    2, 0x08,
-       4,    3,   54,    2, 0x08,
-       5,    2,   61,    2, 0x08,
-       6,    2,   66,    2, 0x08,
-       7,    2,   71,    2, 0x08,
-       8,    1,   76,    2, 0x08,
-       9,    1,   79,    2, 0x08,
+       1,    2,   49,    2, 0x08 /* Private */,
+       4,    3,   54,    2, 0x08 /* Private */,
+       5,    2,   61,    2, 0x08 /* Private */,
+       6,    2,   66,    2, 0x08 /* Private */,
+       7,    2,   71,    2, 0x08 /* Private */,
+       8,    1,   76,    2, 0x08 /* Private */,
+       9,    1,   79,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::Double,    2,    2,
@@ -563,12 +563,12 @@ int QtDoubleSpinBoxFactory::qt_metacall(QMetaObject::Call _c, int _id, void **_a
 }
 struct qt_meta_stringdata_QtLineEditFactory_t {
     QByteArrayData data[9];
-    char stringdata[143];
+    char stringdata[142];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtLineEditFactory_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtLineEditFactory_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtLineEditFactory_t qt_meta_stringdata_QtLineEditFactory = {
     {
@@ -585,7 +585,7 @@ QT_MOC_LITERAL(8, 122, 19)
     "QtLineEditFactory\0slotPropertyChanged\0"
     "\0QtProperty*\0slotRegExpChanged\0"
     "slotEchoModeChanged\0slotReadOnlyChanged\0"
-    "slotSetValue\0slotEditorDestroyed\0"
+    "slotSetValue\0slotEditorDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -603,12 +603,12 @@ static const uint qt_meta_data_QtLineEditFactory[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    2,   44,    2, 0x08,
-       4,    2,   49,    2, 0x08,
-       5,    2,   54,    2, 0x08,
-       6,    2,   59,    2, 0x08,
-       7,    1,   64,    2, 0x08,
-       8,    1,   67,    2, 0x08,
+       1,    2,   44,    2, 0x08 /* Private */,
+       4,    2,   49,    2, 0x08 /* Private */,
+       5,    2,   54,    2, 0x08 /* Private */,
+       6,    2,   59,    2, 0x08 /* Private */,
+       7,    1,   64,    2, 0x08 /* Private */,
+       8,    1,   67,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QString,    2,    2,
@@ -674,12 +674,12 @@ int QtLineEditFactory::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 struct qt_meta_stringdata_QtDateEditFactory_t {
     QByteArrayData data[7];
-    char stringdata[102];
+    char stringdata[101];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtDateEditFactory_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtDateEditFactory_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtDateEditFactory_t qt_meta_stringdata_QtDateEditFactory = {
     {
@@ -693,7 +693,7 @@ QT_MOC_LITERAL(6, 81, 19)
     },
     "QtDateEditFactory\0slotPropertyChanged\0"
     "\0QtProperty*\0slotRangeChanged\0"
-    "slotSetValue\0slotEditorDestroyed\0"
+    "slotSetValue\0slotEditorDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -711,10 +711,10 @@ static const uint qt_meta_data_QtDateEditFactory[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    2,   34,    2, 0x08,
-       4,    3,   39,    2, 0x08,
-       5,    1,   46,    2, 0x08,
-       6,    1,   49,    2, 0x08,
+       1,    2,   34,    2, 0x08 /* Private */,
+       4,    3,   39,    2, 0x08 /* Private */,
+       5,    1,   46,    2, 0x08 /* Private */,
+       6,    1,   49,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QDate,    2,    2,
@@ -776,12 +776,12 @@ int QtDateEditFactory::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 struct qt_meta_stringdata_QtTimeEditFactory_t {
     QByteArrayData data[6];
-    char stringdata[85];
+    char stringdata[84];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtTimeEditFactory_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtTimeEditFactory_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtTimeEditFactory_t qt_meta_stringdata_QtTimeEditFactory = {
     {
@@ -793,7 +793,7 @@ QT_MOC_LITERAL(4, 51, 12),
 QT_MOC_LITERAL(5, 64, 19)
     },
     "QtTimeEditFactory\0slotPropertyChanged\0"
-    "\0QtProperty*\0slotSetValue\0slotEditorDestroyed\0"
+    "\0QtProperty*\0slotSetValue\0slotEditorDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -811,9 +811,9 @@ static const uint qt_meta_data_QtTimeEditFactory[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    2,   29,    2, 0x08,
-       4,    1,   34,    2, 0x08,
-       5,    1,   37,    2, 0x08,
+       1,    2,   29,    2, 0x08 /* Private */,
+       4,    1,   34,    2, 0x08 /* Private */,
+       5,    1,   37,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QTime,    2,    2,
@@ -873,12 +873,12 @@ int QtTimeEditFactory::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 struct qt_meta_stringdata_QtDateTimeEditFactory_t {
     QByteArrayData data[6];
-    char stringdata[89];
+    char stringdata[88];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtDateTimeEditFactory_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtDateTimeEditFactory_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtDateTimeEditFactory_t qt_meta_stringdata_QtDateTimeEditFactory = {
     {
@@ -890,7 +890,7 @@ QT_MOC_LITERAL(4, 55, 12),
 QT_MOC_LITERAL(5, 68, 19)
     },
     "QtDateTimeEditFactory\0slotPropertyChanged\0"
-    "\0QtProperty*\0slotSetValue\0slotEditorDestroyed\0"
+    "\0QtProperty*\0slotSetValue\0slotEditorDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -908,9 +908,9 @@ static const uint qt_meta_data_QtDateTimeEditFactory[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    2,   29,    2, 0x08,
-       4,    1,   34,    2, 0x08,
-       5,    1,   37,    2, 0x08,
+       1,    2,   29,    2, 0x08 /* Private */,
+       4,    1,   34,    2, 0x08 /* Private */,
+       5,    1,   37,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QDateTime,    2,    2,
@@ -970,12 +970,12 @@ int QtDateTimeEditFactory::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 struct qt_meta_stringdata_QtKeySequenceEditorFactory_t {
     QByteArrayData data[6];
-    char stringdata[94];
+    char stringdata[93];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtKeySequenceEditorFactory_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtKeySequenceEditorFactory_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtKeySequenceEditorFactory_t qt_meta_stringdata_QtKeySequenceEditorFactory = {
     {
@@ -988,7 +988,7 @@ QT_MOC_LITERAL(5, 73, 19)
     },
     "QtKeySequenceEditorFactory\0"
     "slotPropertyChanged\0\0QtProperty*\0"
-    "slotSetValue\0slotEditorDestroyed\0"
+    "slotSetValue\0slotEditorDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -1006,9 +1006,9 @@ static const uint qt_meta_data_QtKeySequenceEditorFactory[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    2,   29,    2, 0x08,
-       4,    1,   34,    2, 0x08,
-       5,    1,   37,    2, 0x08,
+       1,    2,   29,    2, 0x08 /* Private */,
+       4,    1,   34,    2, 0x08 /* Private */,
+       5,    1,   37,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QKeySequence,    2,    2,
@@ -1068,12 +1068,12 @@ int QtKeySequenceEditorFactory::qt_metacall(QMetaObject::Call _c, int _id, void 
 }
 struct qt_meta_stringdata_QtCharEditorFactory_t {
     QByteArrayData data[6];
-    char stringdata[87];
+    char stringdata[86];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtCharEditorFactory_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtCharEditorFactory_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtCharEditorFactory_t qt_meta_stringdata_QtCharEditorFactory = {
     {
@@ -1085,7 +1085,7 @@ QT_MOC_LITERAL(4, 53, 12),
 QT_MOC_LITERAL(5, 66, 19)
     },
     "QtCharEditorFactory\0slotPropertyChanged\0"
-    "\0QtProperty*\0slotSetValue\0slotEditorDestroyed\0"
+    "\0QtProperty*\0slotSetValue\0slotEditorDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -1103,9 +1103,9 @@ static const uint qt_meta_data_QtCharEditorFactory[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    2,   29,    2, 0x08,
-       4,    1,   34,    2, 0x08,
-       5,    1,   37,    2, 0x08,
+       1,    2,   29,    2, 0x08 /* Private */,
+       4,    1,   34,    2, 0x08 /* Private */,
+       5,    1,   37,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QChar,    2,    2,
@@ -1165,12 +1165,12 @@ int QtCharEditorFactory::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 struct qt_meta_stringdata_QtEnumEditorFactory_t {
     QByteArrayData data[9];
-    char stringdata[145];
+    char stringdata[144];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtEnumEditorFactory_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtEnumEditorFactory_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtEnumEditorFactory_t qt_meta_stringdata_QtEnumEditorFactory = {
     {
@@ -1187,7 +1187,7 @@ QT_MOC_LITERAL(8, 124, 19)
     "QtEnumEditorFactory\0slotPropertyChanged\0"
     "\0QtProperty*\0slotEnumNamesChanged\0"
     "slotEnumIconsChanged\0QMap<int,QIcon>\0"
-    "slotSetValue\0slotEditorDestroyed\0"
+    "slotSetValue\0slotEditorDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -1205,11 +1205,11 @@ static const uint qt_meta_data_QtEnumEditorFactory[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    2,   39,    2, 0x08,
-       4,    2,   44,    2, 0x08,
-       5,    2,   49,    2, 0x08,
-       7,    1,   54,    2, 0x08,
-       8,    1,   57,    2, 0x08,
+       1,    2,   39,    2, 0x08 /* Private */,
+       4,    2,   44,    2, 0x08 /* Private */,
+       5,    2,   49,    2, 0x08 /* Private */,
+       7,    1,   54,    2, 0x08 /* Private */,
+       8,    1,   57,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::Int,    2,    2,
@@ -1273,12 +1273,12 @@ int QtEnumEditorFactory::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 struct qt_meta_stringdata_QtCursorEditorFactory_t {
     QByteArrayData data[6];
-    char stringdata[92];
+    char stringdata[91];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtCursorEditorFactory_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtCursorEditorFactory_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtCursorEditorFactory_t qt_meta_stringdata_QtCursorEditorFactory = {
     {
@@ -1291,7 +1291,7 @@ QT_MOC_LITERAL(5, 71, 19)
     },
     "QtCursorEditorFactory\0slotPropertyChanged\0"
     "\0QtProperty*\0slotEnumChanged\0"
-    "slotEditorDestroyed\0"
+    "slotEditorDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -1309,9 +1309,9 @@ static const uint qt_meta_data_QtCursorEditorFactory[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    2,   29,    2, 0x08,
-       4,    2,   34,    2, 0x08,
-       5,    1,   39,    2, 0x08,
+       1,    2,   29,    2, 0x08 /* Private */,
+       4,    2,   34,    2, 0x08 /* Private */,
+       5,    1,   39,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QCursor,    2,    2,
@@ -1371,12 +1371,12 @@ int QtCursorEditorFactory::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 struct qt_meta_stringdata_QtColorEditorFactory_t {
     QByteArrayData data[6];
-    char stringdata[88];
+    char stringdata[87];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtColorEditorFactory_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtColorEditorFactory_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtColorEditorFactory_t qt_meta_stringdata_QtColorEditorFactory = {
     {
@@ -1389,7 +1389,7 @@ QT_MOC_LITERAL(5, 74, 12)
     },
     "QtColorEditorFactory\0slotPropertyChanged\0"
     "\0QtProperty*\0slotEditorDestroyed\0"
-    "slotSetValue\0"
+    "slotSetValue"
 };
 #undef QT_MOC_LITERAL
 
@@ -1407,9 +1407,9 @@ static const uint qt_meta_data_QtColorEditorFactory[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    2,   29,    2, 0x08,
-       4,    1,   34,    2, 0x08,
-       5,    1,   37,    2, 0x08,
+       1,    2,   29,    2, 0x08 /* Private */,
+       4,    1,   34,    2, 0x08 /* Private */,
+       5,    1,   37,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QColor,    2,    2,
@@ -1469,12 +1469,12 @@ int QtColorEditorFactory::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 struct qt_meta_stringdata_QtFontEditorFactory_t {
     QByteArrayData data[6];
-    char stringdata[87];
+    char stringdata[86];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtFontEditorFactory_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtFontEditorFactory_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtFontEditorFactory_t qt_meta_stringdata_QtFontEditorFactory = {
     {
@@ -1487,7 +1487,7 @@ QT_MOC_LITERAL(5, 73, 12)
     },
     "QtFontEditorFactory\0slotPropertyChanged\0"
     "\0QtProperty*\0slotEditorDestroyed\0"
-    "slotSetValue\0"
+    "slotSetValue"
 };
 #undef QT_MOC_LITERAL
 
@@ -1505,9 +1505,9 @@ static const uint qt_meta_data_QtFontEditorFactory[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    2,   29,    2, 0x08,
-       4,    1,   34,    2, 0x08,
-       5,    1,   37,    2, 0x08,
+       1,    2,   29,    2, 0x08 /* Private */,
+       4,    1,   34,    2, 0x08 /* Private */,
+       5,    1,   37,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QFont,    2,    2,

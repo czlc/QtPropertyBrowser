@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'qtvariantproperty.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.3.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'qtvariantproperty.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.3.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,12 +20,12 @@
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_QtVariantPropertyManager_t {
     QByteArrayData data[26];
-    char stringdata[419];
+    char stringdata[418];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtVariantPropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtVariantPropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtVariantPropertyManager_t qt_meta_stringdata_QtVariantPropertyManager = {
     {
@@ -66,7 +66,7 @@ QT_MOC_LITERAL(25, 398, 19)
     "slotEnumIconsChanged\0QMap<int,QIcon>\0"
     "slotFlagNamesChanged\0slotReadOnlyChanged\0"
     "slotTextVisibleChanged\0slotPropertyInserted\0"
-    "slotPropertyRemoved\0"
+    "slotPropertyRemoved"
 };
 #undef QT_MOC_LITERAL
 
@@ -84,51 +84,51 @@ static const uint qt_meta_data_QtVariantPropertyManager[] = {
        2,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,  229,    2, 0x06,
-       6,    3,  234,    2, 0x06,
+       1,    2,  229,    2, 0x06 /* Public */,
+       6,    3,  234,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       8,    2,  241,    2, 0x0a,
-       9,    3,  246,    2, 0x0a,
-      11,    2,  253,    2, 0x08,
-      12,    3,  258,    2, 0x08,
-      13,    2,  265,    2, 0x08,
-      11,    2,  270,    2, 0x08,
-      12,    3,  275,    2, 0x08,
-      13,    2,  282,    2, 0x08,
-      14,    2,  287,    2, 0x08,
-      11,    2,  292,    2, 0x08,
-      11,    2,  297,    2, 0x08,
-      15,    2,  302,    2, 0x08,
-      16,    2,  307,    2, 0x08,
-      11,    2,  312,    2, 0x08,
-      12,    3,  317,    2, 0x08,
-      11,    2,  324,    2, 0x08,
-      11,    2,  329,    2, 0x08,
-      11,    2,  334,    2, 0x08,
-      11,    2,  339,    2, 0x08,
-      11,    2,  344,    2, 0x08,
-      11,    2,  349,    2, 0x08,
-      11,    2,  354,    2, 0x08,
-      11,    2,  359,    2, 0x08,
-      12,    3,  364,    2, 0x08,
-      11,    2,  371,    2, 0x08,
-      12,    3,  376,    2, 0x08,
-      11,    2,  383,    2, 0x08,
-      17,    2,  388,    2, 0x08,
-      11,    2,  393,    2, 0x08,
-      17,    2,  398,    2, 0x08,
-      11,    2,  403,    2, 0x08,
-      18,    2,  408,    2, 0x08,
-      19,    2,  413,    2, 0x08,
-      11,    2,  418,    2, 0x08,
-      11,    2,  423,    2, 0x08,
-      11,    2,  428,    2, 0x08,
-      21,    2,  433,    2, 0x08,
-      22,    2,  438,    2, 0x08,
-      23,    2,  443,    2, 0x08,
-      24,    3,  448,    2, 0x08,
-      25,    2,  455,    2, 0x08,
+       8,    2,  241,    2, 0x0a /* Public */,
+       9,    3,  246,    2, 0x0a /* Public */,
+      11,    2,  253,    2, 0x08 /* Private */,
+      12,    3,  258,    2, 0x08 /* Private */,
+      13,    2,  265,    2, 0x08 /* Private */,
+      11,    2,  270,    2, 0x08 /* Private */,
+      12,    3,  275,    2, 0x08 /* Private */,
+      13,    2,  282,    2, 0x08 /* Private */,
+      14,    2,  287,    2, 0x08 /* Private */,
+      11,    2,  292,    2, 0x08 /* Private */,
+      11,    2,  297,    2, 0x08 /* Private */,
+      15,    2,  302,    2, 0x08 /* Private */,
+      16,    2,  307,    2, 0x08 /* Private */,
+      11,    2,  312,    2, 0x08 /* Private */,
+      12,    3,  317,    2, 0x08 /* Private */,
+      11,    2,  324,    2, 0x08 /* Private */,
+      11,    2,  329,    2, 0x08 /* Private */,
+      11,    2,  334,    2, 0x08 /* Private */,
+      11,    2,  339,    2, 0x08 /* Private */,
+      11,    2,  344,    2, 0x08 /* Private */,
+      11,    2,  349,    2, 0x08 /* Private */,
+      11,    2,  354,    2, 0x08 /* Private */,
+      11,    2,  359,    2, 0x08 /* Private */,
+      12,    3,  364,    2, 0x08 /* Private */,
+      11,    2,  371,    2, 0x08 /* Private */,
+      12,    3,  376,    2, 0x08 /* Private */,
+      11,    2,  383,    2, 0x08 /* Private */,
+      17,    2,  388,    2, 0x08 /* Private */,
+      11,    2,  393,    2, 0x08 /* Private */,
+      17,    2,  398,    2, 0x08 /* Private */,
+      11,    2,  403,    2, 0x08 /* Private */,
+      18,    2,  408,    2, 0x08 /* Private */,
+      19,    2,  413,    2, 0x08 /* Private */,
+      11,    2,  418,    2, 0x08 /* Private */,
+      11,    2,  423,    2, 0x08 /* Private */,
+      11,    2,  428,    2, 0x08 /* Private */,
+      21,    2,  433,    2, 0x08 /* Private */,
+      22,    2,  438,    2, 0x08 /* Private */,
+      23,    2,  443,    2, 0x08 /* Private */,
+      24,    3,  448,    2, 0x08 /* Private */,
+      25,    2,  455,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QVariant,    4,    5,
@@ -299,18 +299,18 @@ void QtVariantPropertyManager::attributeChanged(QtProperty * _t1, const QString 
 }
 struct qt_meta_stringdata_QtVariantEditorFactory_t {
     QByteArrayData data[1];
-    char stringdata[24];
+    char stringdata[23];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtVariantEditorFactory_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtVariantEditorFactory_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtVariantEditorFactory_t qt_meta_stringdata_QtVariantEditorFactory = {
     {
 QT_MOC_LITERAL(0, 0, 22)
     },
-    "QtVariantEditorFactory\0"
+    "QtVariantEditorFactory"
 };
 #undef QT_MOC_LITERAL
 

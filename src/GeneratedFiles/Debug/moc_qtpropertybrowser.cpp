@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'qtpropertybrowser.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.3.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'qtpropertybrowser.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.3.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,12 +20,12 @@
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_QtAbstractPropertyManager_t {
     QByteArrayData data[10];
-    char stringdata[129];
+    char stringdata[128];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtAbstractPropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtAbstractPropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtAbstractPropertyManager_t qt_meta_stringdata_QtAbstractPropertyManager = {
     {
@@ -43,7 +43,7 @@ QT_MOC_LITERAL(9, 110, 17)
     "QtAbstractPropertyManager\0propertyInserted\0"
     "\0QtProperty*\0property\0parent\0after\0"
     "propertyChanged\0propertyRemoved\0"
-    "propertyDestroyed\0"
+    "propertyDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -61,10 +61,10 @@ static const uint qt_meta_data_QtAbstractPropertyManager[] = {
        4,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    3,   34,    2, 0x06,
-       7,    1,   41,    2, 0x06,
-       8,    2,   44,    2, 0x06,
-       9,    1,   49,    2, 0x06,
+       1,    3,   34,    2, 0x06 /* Public */,
+       7,    1,   41,    2, 0x06 /* Public */,
+       8,    2,   44,    2, 0x06 /* Public */,
+       9,    1,   49,    2, 0x06 /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, 0x80000000 | 3, 0x80000000 | 3,    4,    5,    6,
@@ -181,12 +181,12 @@ void QtAbstractPropertyManager::propertyDestroyed(QtProperty * _t1)
 }
 struct qt_meta_stringdata_QtAbstractEditorFactoryBase_t {
     QByteArrayData data[4];
-    char stringdata[55];
+    char stringdata[54];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtAbstractEditorFactoryBase_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtAbstractEditorFactoryBase_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtAbstractEditorFactoryBase_t qt_meta_stringdata_QtAbstractEditorFactoryBase = {
     {
@@ -196,7 +196,7 @@ QT_MOC_LITERAL(2, 45, 0),
 QT_MOC_LITERAL(3, 46, 7)
     },
     "QtAbstractEditorFactoryBase\0"
-    "managerDestroyed\0\0manager\0"
+    "managerDestroyed\0\0manager"
 };
 #undef QT_MOC_LITERAL
 
@@ -214,7 +214,7 @@ static const uint qt_meta_data_QtAbstractEditorFactoryBase[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    1,   19,    2, 0x09,
+       1,    1,   19,    2, 0x09 /* Protected */,
 
  // slots: parameters
     QMetaType::Void, QMetaType::QObjectStar,    3,
@@ -270,12 +270,12 @@ int QtAbstractEditorFactoryBase::qt_metacall(QMetaObject::Call _c, int _id, void
 }
 struct qt_meta_stringdata_QtAbstractPropertyBrowser_t {
     QByteArrayData data[14];
-    char stringdata[226];
+    char stringdata[225];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtAbstractPropertyBrowser_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtAbstractPropertyBrowser_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtAbstractPropertyBrowser_t qt_meta_stringdata_QtAbstractPropertyBrowser = {
     {
@@ -299,7 +299,7 @@ QT_MOC_LITERAL(13, 201, 23)
     "property\0insertProperty\0afterProperty\0"
     "removeProperty\0slotPropertyInserted\0"
     "slotPropertyRemoved\0slotPropertyDestroyed\0"
-    "slotPropertyDataChanged\0"
+    "slotPropertyDataChanged"
 };
 #undef QT_MOC_LITERAL
 
@@ -317,16 +317,16 @@ static const uint qt_meta_data_QtAbstractPropertyBrowser[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    1,   54,    2, 0x06,
+       1,    1,   54,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       4,    1,   57,    2, 0x0a,
-       7,    2,   60,    2, 0x0a,
-       9,    1,   65,    2, 0x0a,
-      10,    3,   68,    2, 0x08,
-      11,    2,   75,    2, 0x08,
-      12,    1,   80,    2, 0x08,
-      13,    1,   83,    2, 0x08,
+       4,    1,   57,    2, 0x0a /* Public */,
+       7,    2,   60,    2, 0x0a /* Public */,
+       9,    1,   65,    2, 0x0a /* Public */,
+      10,    3,   68,    2, 0x08 /* Private */,
+      11,    2,   75,    2, 0x08 /* Private */,
+      12,    1,   80,    2, 0x08 /* Private */,
+      13,    1,   83,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3,    2,

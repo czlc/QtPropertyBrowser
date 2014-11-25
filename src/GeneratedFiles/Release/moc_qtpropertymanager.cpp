@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'qtpropertymanager.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.2.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.3.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'qtpropertymanager.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.2.1. It"
+#error "This file was generated using the moc from 5.3.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,18 +20,18 @@
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_QtGroupPropertyManager_t {
     QByteArrayData data[1];
-    char stringdata[24];
+    char stringdata[23];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtGroupPropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtGroupPropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtGroupPropertyManager_t qt_meta_stringdata_QtGroupPropertyManager = {
     {
 QT_MOC_LITERAL(0, 0, 22)
     },
-    "QtGroupPropertyManager\0"
+    "QtGroupPropertyManager"
 };
 #undef QT_MOC_LITERAL
 
@@ -87,12 +87,12 @@ int QtGroupPropertyManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a
 }
 struct qt_meta_stringdata_QtIntPropertyManager_t {
     QByteArrayData data[19];
-    char stringdata[202];
+    char stringdata[201];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtIntPropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtIntPropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtIntPropertyManager_t qt_meta_stringdata_QtIntPropertyManager = {
     {
@@ -121,7 +121,7 @@ QT_MOC_LITERAL(18, 189, 11)
     "minVal\0maxVal\0singleStepChanged\0step\0"
     "readOnlyChanged\0readOnly\0setValue\0"
     "setMinimum\0setMaximum\0setRange\0"
-    "setSingleStep\0setReadOnly\0"
+    "setSingleStep\0setReadOnly"
 };
 #undef QT_MOC_LITERAL
 
@@ -139,18 +139,18 @@ static const uint qt_meta_data_QtIntPropertyManager[] = {
        4,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   64,    2, 0x06,
-       6,    3,   69,    2, 0x06,
-       9,    2,   76,    2, 0x06,
-      11,    2,   81,    2, 0x06,
+       1,    2,   64,    2, 0x06 /* Public */,
+       6,    3,   69,    2, 0x06 /* Public */,
+       9,    2,   76,    2, 0x06 /* Public */,
+      11,    2,   81,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-      13,    2,   86,    2, 0x0a,
-      14,    2,   91,    2, 0x0a,
-      15,    2,   96,    2, 0x0a,
-      16,    3,  101,    2, 0x0a,
-      17,    2,  108,    2, 0x0a,
-      18,    2,  113,    2, 0x0a,
+      13,    2,   86,    2, 0x0a /* Public */,
+      14,    2,   91,    2, 0x0a /* Public */,
+      15,    2,   96,    2, 0x0a /* Public */,
+      16,    3,  101,    2, 0x0a /* Public */,
+      17,    2,  108,    2, 0x0a /* Public */,
+      18,    2,  113,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::Int,    4,    5,
@@ -281,12 +281,12 @@ void QtIntPropertyManager::readOnlyChanged(QtProperty * _t1, bool _t2)
 }
 struct qt_meta_stringdata_QtBoolPropertyManager_t {
     QByteArrayData data[10];
-    char stringdata[117];
+    char stringdata[116];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtBoolPropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtBoolPropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtBoolPropertyManager_t qt_meta_stringdata_QtBoolPropertyManager = {
     {
@@ -303,7 +303,7 @@ QT_MOC_LITERAL(9, 104, 11)
     },
     "QtBoolPropertyManager\0valueChanged\0\0"
     "QtProperty*\0property\0val\0textVisibleChanged\0"
-    "setValue\0setTextVisible\0textVisible\0"
+    "setValue\0setTextVisible\0textVisible"
 };
 #undef QT_MOC_LITERAL
 
@@ -321,12 +321,12 @@ static const uint qt_meta_data_QtBoolPropertyManager[] = {
        2,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   34,    2, 0x06,
-       6,    2,   39,    2, 0x06,
+       1,    2,   34,    2, 0x06 /* Public */,
+       6,    2,   39,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       7,    2,   44,    2, 0x0a,
-       8,    2,   49,    2, 0x0a,
+       7,    2,   44,    2, 0x0a /* Public */,
+       8,    2,   49,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::Bool,    4,    5,
@@ -419,12 +419,12 @@ void QtBoolPropertyManager::textVisibleChanged(QtProperty * _t1, bool _t2)
 }
 struct qt_meta_stringdata_QtDoublePropertyManager_t {
     QByteArrayData data[22];
-    char stringdata[238];
+    char stringdata[237];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtDoublePropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtDoublePropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtDoublePropertyManager_t qt_meta_stringdata_QtDoublePropertyManager = {
     {
@@ -457,7 +457,7 @@ QT_MOC_LITERAL(21, 225, 11)
     "decimalsChanged\0prec\0readOnlyChanged\0"
     "readOnly\0setValue\0setMinimum\0setMaximum\0"
     "setRange\0setSingleStep\0setDecimals\0"
-    "setReadOnly\0"
+    "setReadOnly"
 };
 #undef QT_MOC_LITERAL
 
@@ -475,20 +475,20 @@ static const uint qt_meta_data_QtDoublePropertyManager[] = {
        5,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   74,    2, 0x06,
-       6,    3,   79,    2, 0x06,
-       9,    2,   86,    2, 0x06,
-      11,    2,   91,    2, 0x06,
-      13,    2,   96,    2, 0x06,
+       1,    2,   74,    2, 0x06 /* Public */,
+       6,    3,   79,    2, 0x06 /* Public */,
+       9,    2,   86,    2, 0x06 /* Public */,
+      11,    2,   91,    2, 0x06 /* Public */,
+      13,    2,   96,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-      15,    2,  101,    2, 0x0a,
-      16,    2,  106,    2, 0x0a,
-      17,    2,  111,    2, 0x0a,
-      18,    3,  116,    2, 0x0a,
-      19,    2,  123,    2, 0x0a,
-      20,    2,  128,    2, 0x0a,
-      21,    2,  133,    2, 0x0a,
+      15,    2,  101,    2, 0x0a /* Public */,
+      16,    2,  106,    2, 0x0a /* Public */,
+      17,    2,  111,    2, 0x0a /* Public */,
+      18,    3,  116,    2, 0x0a /* Public */,
+      19,    2,  123,    2, 0x0a /* Public */,
+      20,    2,  128,    2, 0x0a /* Public */,
+      21,    2,  133,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::Double,    4,    5,
@@ -636,12 +636,12 @@ void QtDoublePropertyManager::readOnlyChanged(QtProperty * _t1, bool _t2)
 }
 struct qt_meta_stringdata_QtStringPropertyManager_t {
     QByteArrayData data[17];
-    char stringdata[187];
+    char stringdata[186];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtStringPropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtStringPropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtStringPropertyManager_t qt_meta_stringdata_QtStringPropertyManager = {
     {
@@ -667,7 +667,7 @@ QT_MOC_LITERAL(16, 177, 8)
     "\0QtProperty*\0property\0val\0regExpChanged\0"
     "regExp\0echoModeChanged\0readOnlyChanged\0"
     "setValue\0setRegExp\0setEchoMode\0EchoMode\0"
-    "echoMode\0setReadOnly\0readOnly\0"
+    "echoMode\0setReadOnly\0readOnly"
 };
 #undef QT_MOC_LITERAL
 
@@ -685,16 +685,16 @@ static const uint qt_meta_data_QtStringPropertyManager[] = {
        4,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   54,    2, 0x06,
-       6,    2,   59,    2, 0x06,
-       8,    2,   64,    2, 0x06,
-       9,    2,   69,    2, 0x06,
+       1,    2,   54,    2, 0x06 /* Public */,
+       6,    2,   59,    2, 0x06 /* Public */,
+       8,    2,   64,    2, 0x06 /* Public */,
+       9,    2,   69,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-      10,    2,   74,    2, 0x0a,
-      11,    2,   79,    2, 0x0a,
-      12,    2,   84,    2, 0x0a,
-      15,    2,   89,    2, 0x0a,
+      10,    2,   74,    2, 0x0a /* Public */,
+      11,    2,   79,    2, 0x0a /* Public */,
+      12,    2,   84,    2, 0x0a /* Public */,
+      15,    2,   89,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QString,    4,    5,
@@ -821,12 +821,12 @@ void QtStringPropertyManager::readOnlyChanged(QtProperty * _t1, bool _t2)
 }
 struct qt_meta_stringdata_QtDatePropertyManager_t {
     QByteArrayData data[13];
-    char stringdata[129];
+    char stringdata[128];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtDatePropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtDatePropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtDatePropertyManager_t qt_meta_stringdata_QtDatePropertyManager = {
     {
@@ -847,7 +847,7 @@ QT_MOC_LITERAL(12, 119, 8)
     "QtDatePropertyManager\0valueChanged\0\0"
     "QtProperty*\0property\0val\0rangeChanged\0"
     "minVal\0maxVal\0setValue\0setMinimum\0"
-    "setMaximum\0setRange\0"
+    "setMaximum\0setRange"
 };
 #undef QT_MOC_LITERAL
 
@@ -865,14 +865,14 @@ static const uint qt_meta_data_QtDatePropertyManager[] = {
        2,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   44,    2, 0x06,
-       6,    3,   49,    2, 0x06,
+       1,    2,   44,    2, 0x06 /* Public */,
+       6,    3,   49,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       9,    2,   56,    2, 0x0a,
-      10,    2,   61,    2, 0x0a,
-      11,    2,   66,    2, 0x0a,
-      12,    3,   71,    2, 0x0a,
+       9,    2,   56,    2, 0x0a /* Public */,
+      10,    2,   61,    2, 0x0a /* Public */,
+      11,    2,   66,    2, 0x0a /* Public */,
+      12,    3,   71,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QDate,    4,    5,
@@ -969,12 +969,12 @@ void QtDatePropertyManager::rangeChanged(QtProperty * _t1, const QDate & _t2, co
 }
 struct qt_meta_stringdata_QtTimePropertyManager_t {
     QByteArrayData data[7];
-    char stringdata[71];
+    char stringdata[70];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtTimePropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtTimePropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtTimePropertyManager_t qt_meta_stringdata_QtTimePropertyManager = {
     {
@@ -987,7 +987,7 @@ QT_MOC_LITERAL(5, 57, 3),
 QT_MOC_LITERAL(6, 61, 8)
     },
     "QtTimePropertyManager\0valueChanged\0\0"
-    "QtProperty*\0property\0val\0setValue\0"
+    "QtProperty*\0property\0val\0setValue"
 };
 #undef QT_MOC_LITERAL
 
@@ -1005,10 +1005,10 @@ static const uint qt_meta_data_QtTimePropertyManager[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   24,    2, 0x06,
+       1,    2,   24,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       6,    2,   29,    2, 0x0a,
+       6,    2,   29,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QTime,    4,    5,
@@ -1084,12 +1084,12 @@ void QtTimePropertyManager::valueChanged(QtProperty * _t1, const QTime & _t2)
 }
 struct qt_meta_stringdata_QtDateTimePropertyManager_t {
     QByteArrayData data[7];
-    char stringdata[75];
+    char stringdata[74];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtDateTimePropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtDateTimePropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtDateTimePropertyManager_t qt_meta_stringdata_QtDateTimePropertyManager = {
     {
@@ -1102,7 +1102,7 @@ QT_MOC_LITERAL(5, 61, 3),
 QT_MOC_LITERAL(6, 65, 8)
     },
     "QtDateTimePropertyManager\0valueChanged\0"
-    "\0QtProperty*\0property\0val\0setValue\0"
+    "\0QtProperty*\0property\0val\0setValue"
 };
 #undef QT_MOC_LITERAL
 
@@ -1120,10 +1120,10 @@ static const uint qt_meta_data_QtDateTimePropertyManager[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   24,    2, 0x06,
+       1,    2,   24,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       6,    2,   29,    2, 0x0a,
+       6,    2,   29,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QDateTime,    4,    5,
@@ -1199,12 +1199,12 @@ void QtDateTimePropertyManager::valueChanged(QtProperty * _t1, const QDateTime &
 }
 struct qt_meta_stringdata_QtKeySequencePropertyManager_t {
     QByteArrayData data[7];
-    char stringdata[78];
+    char stringdata[77];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtKeySequencePropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtKeySequencePropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtKeySequencePropertyManager_t qt_meta_stringdata_QtKeySequencePropertyManager = {
     {
@@ -1217,7 +1217,7 @@ QT_MOC_LITERAL(5, 64, 3),
 QT_MOC_LITERAL(6, 68, 8)
     },
     "QtKeySequencePropertyManager\0valueChanged\0"
-    "\0QtProperty*\0property\0val\0setValue\0"
+    "\0QtProperty*\0property\0val\0setValue"
 };
 #undef QT_MOC_LITERAL
 
@@ -1235,10 +1235,10 @@ static const uint qt_meta_data_QtKeySequencePropertyManager[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   24,    2, 0x06,
+       1,    2,   24,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       6,    2,   29,    2, 0x0a,
+       6,    2,   29,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QKeySequence,    4,    5,
@@ -1314,12 +1314,12 @@ void QtKeySequencePropertyManager::valueChanged(QtProperty * _t1, const QKeySequ
 }
 struct qt_meta_stringdata_QtCharPropertyManager_t {
     QByteArrayData data[7];
-    char stringdata[71];
+    char stringdata[70];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtCharPropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtCharPropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtCharPropertyManager_t qt_meta_stringdata_QtCharPropertyManager = {
     {
@@ -1332,7 +1332,7 @@ QT_MOC_LITERAL(5, 57, 3),
 QT_MOC_LITERAL(6, 61, 8)
     },
     "QtCharPropertyManager\0valueChanged\0\0"
-    "QtProperty*\0property\0val\0setValue\0"
+    "QtProperty*\0property\0val\0setValue"
 };
 #undef QT_MOC_LITERAL
 
@@ -1350,10 +1350,10 @@ static const uint qt_meta_data_QtCharPropertyManager[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   24,    2, 0x06,
+       1,    2,   24,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       6,    2,   29,    2, 0x0a,
+       6,    2,   29,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QChar,    4,    5,
@@ -1429,12 +1429,12 @@ void QtCharPropertyManager::valueChanged(QtProperty * _t1, const QChar & _t2)
 }
 struct qt_meta_stringdata_QtLocalePropertyManager_t {
     QByteArrayData data[9];
-    char stringdata[111];
+    char stringdata[110];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtLocalePropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtLocalePropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtLocalePropertyManager_t qt_meta_stringdata_QtLocalePropertyManager = {
     {
@@ -1450,7 +1450,7 @@ QT_MOC_LITERAL(8, 88, 21)
     },
     "QtLocalePropertyManager\0valueChanged\0"
     "\0QtProperty*\0property\0val\0setValue\0"
-    "slotEnumChanged\0slotPropertyDestroyed\0"
+    "slotEnumChanged\0slotPropertyDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -1468,12 +1468,12 @@ static const uint qt_meta_data_QtLocalePropertyManager[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   34,    2, 0x06,
+       1,    2,   34,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       6,    2,   39,    2, 0x0a,
-       7,    2,   44,    2, 0x08,
-       8,    1,   49,    2, 0x08,
+       6,    2,   39,    2, 0x0a /* Public */,
+       7,    2,   44,    2, 0x08 /* Private */,
+       8,    1,   49,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QLocale,    4,    5,
@@ -1553,12 +1553,12 @@ void QtLocalePropertyManager::valueChanged(QtProperty * _t1, const QLocale & _t2
 }
 struct qt_meta_stringdata_QtPointPropertyManager_t {
     QByteArrayData data[9];
-    char stringdata[109];
+    char stringdata[108];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtPointPropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtPointPropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtPointPropertyManager_t qt_meta_stringdata_QtPointPropertyManager = {
     {
@@ -1574,7 +1574,7 @@ QT_MOC_LITERAL(8, 86, 21)
     },
     "QtPointPropertyManager\0valueChanged\0"
     "\0QtProperty*\0property\0val\0setValue\0"
-    "slotIntChanged\0slotPropertyDestroyed\0"
+    "slotIntChanged\0slotPropertyDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -1592,12 +1592,12 @@ static const uint qt_meta_data_QtPointPropertyManager[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   34,    2, 0x06,
+       1,    2,   34,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       6,    2,   39,    2, 0x0a,
-       7,    2,   44,    2, 0x08,
-       8,    1,   49,    2, 0x08,
+       6,    2,   39,    2, 0x0a /* Public */,
+       7,    2,   44,    2, 0x08 /* Private */,
+       8,    1,   49,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QPoint,    4,    5,
@@ -1677,12 +1677,12 @@ void QtPointPropertyManager::valueChanged(QtProperty * _t1, const QPoint & _t2)
 }
 struct qt_meta_stringdata_QtPointFPropertyManager_t {
     QByteArrayData data[12];
-    char stringdata[146];
+    char stringdata[145];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtPointFPropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtPointFPropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtPointFPropertyManager_t qt_meta_stringdata_QtPointFPropertyManager = {
     {
@@ -1702,7 +1702,7 @@ QT_MOC_LITERAL(11, 123, 21)
     "QtPointFPropertyManager\0valueChanged\0"
     "\0QtProperty*\0property\0val\0decimalsChanged\0"
     "prec\0setValue\0setDecimals\0slotDoubleChanged\0"
-    "slotPropertyDestroyed\0"
+    "slotPropertyDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -1720,14 +1720,14 @@ static const uint qt_meta_data_QtPointFPropertyManager[] = {
        2,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   44,    2, 0x06,
-       6,    2,   49,    2, 0x06,
+       1,    2,   44,    2, 0x06 /* Public */,
+       6,    2,   49,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       8,    2,   54,    2, 0x0a,
-       9,    2,   59,    2, 0x0a,
-      10,    2,   64,    2, 0x08,
-      11,    1,   69,    2, 0x08,
+       8,    2,   54,    2, 0x0a /* Public */,
+       9,    2,   59,    2, 0x0a /* Public */,
+      10,    2,   64,    2, 0x08 /* Private */,
+      11,    1,   69,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QPointF,    4,    5,
@@ -1824,12 +1824,12 @@ void QtPointFPropertyManager::decimalsChanged(QtProperty * _t1, int _t2)
 }
 struct qt_meta_stringdata_QtSizePropertyManager_t {
     QByteArrayData data[15];
-    char stringdata[166];
+    char stringdata[165];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtSizePropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtSizePropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtSizePropertyManager_t qt_meta_stringdata_QtSizePropertyManager = {
     {
@@ -1853,7 +1853,7 @@ QT_MOC_LITERAL(14, 143, 21)
     "QtProperty*\0property\0val\0rangeChanged\0"
     "minVal\0maxVal\0setValue\0setMinimum\0"
     "setMaximum\0setRange\0slotIntChanged\0"
-    "slotPropertyDestroyed\0"
+    "slotPropertyDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -1871,16 +1871,16 @@ static const uint qt_meta_data_QtSizePropertyManager[] = {
        2,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   54,    2, 0x06,
-       6,    3,   59,    2, 0x06,
+       1,    2,   54,    2, 0x06 /* Public */,
+       6,    3,   59,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       9,    2,   66,    2, 0x0a,
-      10,    2,   71,    2, 0x0a,
-      11,    2,   76,    2, 0x0a,
-      12,    3,   81,    2, 0x0a,
-      13,    2,   88,    2, 0x08,
-      14,    1,   93,    2, 0x08,
+       9,    2,   66,    2, 0x0a /* Public */,
+      10,    2,   71,    2, 0x0a /* Public */,
+      11,    2,   76,    2, 0x0a /* Public */,
+      12,    3,   81,    2, 0x0a /* Public */,
+      13,    2,   88,    2, 0x08 /* Private */,
+      14,    1,   93,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QSize,    4,    5,
@@ -1981,12 +1981,12 @@ void QtSizePropertyManager::rangeChanged(QtProperty * _t1, const QSize & _t2, co
 }
 struct qt_meta_stringdata_QtSizeFPropertyManager_t {
     QByteArrayData data[18];
-    char stringdata[203];
+    char stringdata[202];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtSizeFPropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtSizeFPropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtSizeFPropertyManager_t qt_meta_stringdata_QtSizeFPropertyManager = {
     {
@@ -2014,7 +2014,7 @@ QT_MOC_LITERAL(17, 180, 21)
     "minVal\0maxVal\0decimalsChanged\0prec\0"
     "setValue\0setMinimum\0setMaximum\0setRange\0"
     "setDecimals\0slotDoubleChanged\0"
-    "slotPropertyDestroyed\0"
+    "slotPropertyDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -2032,18 +2032,18 @@ static const uint qt_meta_data_QtSizeFPropertyManager[] = {
        3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   64,    2, 0x06,
-       6,    3,   69,    2, 0x06,
-       9,    2,   76,    2, 0x06,
+       1,    2,   64,    2, 0x06 /* Public */,
+       6,    3,   69,    2, 0x06 /* Public */,
+       9,    2,   76,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-      11,    2,   81,    2, 0x0a,
-      12,    2,   86,    2, 0x0a,
-      13,    2,   91,    2, 0x0a,
-      14,    3,   96,    2, 0x0a,
-      15,    2,  103,    2, 0x0a,
-      16,    2,  108,    2, 0x08,
-      17,    1,  113,    2, 0x08,
+      11,    2,   81,    2, 0x0a /* Public */,
+      12,    2,   86,    2, 0x0a /* Public */,
+      13,    2,   91,    2, 0x0a /* Public */,
+      14,    3,   96,    2, 0x0a /* Public */,
+      15,    2,  103,    2, 0x0a /* Public */,
+      16,    2,  108,    2, 0x08 /* Private */,
+      17,    1,  113,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QSizeF,    4,    5,
@@ -2161,12 +2161,12 @@ void QtSizeFPropertyManager::decimalsChanged(QtProperty * _t1, int _t2)
 }
 struct qt_meta_stringdata_QtRectPropertyManager_t {
     QByteArrayData data[12];
-    char stringdata[151];
+    char stringdata[150];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtRectPropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtRectPropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtRectPropertyManager_t qt_meta_stringdata_QtRectPropertyManager = {
     {
@@ -2186,7 +2186,7 @@ QT_MOC_LITERAL(11, 128, 21)
     "QtRectPropertyManager\0valueChanged\0\0"
     "QtProperty*\0property\0val\0constraintChanged\0"
     "constraint\0setValue\0setConstraint\0"
-    "slotIntChanged\0slotPropertyDestroyed\0"
+    "slotIntChanged\0slotPropertyDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -2204,14 +2204,14 @@ static const uint qt_meta_data_QtRectPropertyManager[] = {
        2,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   44,    2, 0x06,
-       6,    2,   49,    2, 0x06,
+       1,    2,   44,    2, 0x06 /* Public */,
+       6,    2,   49,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       8,    2,   54,    2, 0x0a,
-       9,    2,   59,    2, 0x0a,
-      10,    2,   64,    2, 0x08,
-      11,    1,   69,    2, 0x08,
+       8,    2,   54,    2, 0x0a /* Public */,
+       9,    2,   59,    2, 0x0a /* Public */,
+      10,    2,   64,    2, 0x08 /* Private */,
+      11,    1,   69,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QRect,    4,    5,
@@ -2308,12 +2308,12 @@ void QtRectPropertyManager::constraintChanged(QtProperty * _t1, const QRect & _t
 }
 struct qt_meta_stringdata_QtRectFPropertyManager_t {
     QByteArrayData data[15];
-    char stringdata[188];
+    char stringdata[187];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtRectFPropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtRectFPropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtRectFPropertyManager_t qt_meta_stringdata_QtRectFPropertyManager = {
     {
@@ -2337,7 +2337,7 @@ QT_MOC_LITERAL(14, 165, 21)
     "\0QtProperty*\0property\0val\0constraintChanged\0"
     "constraint\0decimalsChanged\0prec\0"
     "setValue\0setConstraint\0setDecimals\0"
-    "slotDoubleChanged\0slotPropertyDestroyed\0"
+    "slotDoubleChanged\0slotPropertyDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -2355,16 +2355,16 @@ static const uint qt_meta_data_QtRectFPropertyManager[] = {
        3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   54,    2, 0x06,
-       6,    2,   59,    2, 0x06,
-       8,    2,   64,    2, 0x06,
+       1,    2,   54,    2, 0x06 /* Public */,
+       6,    2,   59,    2, 0x06 /* Public */,
+       8,    2,   64,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-      10,    2,   69,    2, 0x0a,
-      11,    2,   74,    2, 0x0a,
-      12,    2,   79,    2, 0x0a,
-      13,    2,   84,    2, 0x08,
-      14,    1,   89,    2, 0x08,
+      10,    2,   69,    2, 0x0a /* Public */,
+      11,    2,   74,    2, 0x0a /* Public */,
+      12,    2,   79,    2, 0x0a /* Public */,
+      13,    2,   84,    2, 0x08 /* Private */,
+      14,    1,   89,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QRectF,    4,    5,
@@ -2478,12 +2478,12 @@ void QtRectFPropertyManager::decimalsChanged(QtProperty * _t1, int _t2)
 }
 struct qt_meta_stringdata_QtEnumPropertyManager_t {
     QByteArrayData data[14];
-    char stringdata[159];
+    char stringdata[158];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtEnumPropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtEnumPropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtEnumPropertyManager_t qt_meta_stringdata_QtEnumPropertyManager = {
     {
@@ -2505,7 +2505,7 @@ QT_MOC_LITERAL(13, 145, 12)
     "QtEnumPropertyManager\0valueChanged\0\0"
     "QtProperty*\0property\0val\0enumNamesChanged\0"
     "names\0enumIconsChanged\0QMap<int,QIcon>\0"
-    "icons\0setValue\0setEnumNames\0setEnumIcons\0"
+    "icons\0setValue\0setEnumNames\0setEnumIcons"
 };
 #undef QT_MOC_LITERAL
 
@@ -2523,14 +2523,14 @@ static const uint qt_meta_data_QtEnumPropertyManager[] = {
        3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   44,    2, 0x06,
-       6,    2,   49,    2, 0x06,
-       8,    2,   54,    2, 0x06,
+       1,    2,   44,    2, 0x06 /* Public */,
+       6,    2,   49,    2, 0x06 /* Public */,
+       8,    2,   54,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-      11,    2,   59,    2, 0x0a,
-      12,    2,   64,    2, 0x0a,
-      13,    2,   69,    2, 0x0a,
+      11,    2,   59,    2, 0x0a /* Public */,
+      12,    2,   64,    2, 0x0a /* Public */,
+      13,    2,   69,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::Int,    4,    5,
@@ -2640,12 +2640,12 @@ void QtEnumPropertyManager::enumIconsChanged(QtProperty * _t1, const QMap<int,QI
 }
 struct qt_meta_stringdata_QtFlagPropertyManager_t {
     QByteArrayData data[12];
-    char stringdata[145];
+    char stringdata[144];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtFlagPropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtFlagPropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtFlagPropertyManager_t qt_meta_stringdata_QtFlagPropertyManager = {
     {
@@ -2665,7 +2665,7 @@ QT_MOC_LITERAL(11, 122, 21)
     "QtFlagPropertyManager\0valueChanged\0\0"
     "QtProperty*\0property\0val\0flagNamesChanged\0"
     "names\0setValue\0setFlagNames\0slotBoolChanged\0"
-    "slotPropertyDestroyed\0"
+    "slotPropertyDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -2683,14 +2683,14 @@ static const uint qt_meta_data_QtFlagPropertyManager[] = {
        2,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   44,    2, 0x06,
-       6,    2,   49,    2, 0x06,
+       1,    2,   44,    2, 0x06 /* Public */,
+       6,    2,   49,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       8,    2,   54,    2, 0x0a,
-       9,    2,   59,    2, 0x0a,
-      10,    2,   64,    2, 0x08,
-      11,    1,   69,    2, 0x08,
+       8,    2,   54,    2, 0x0a /* Public */,
+       9,    2,   59,    2, 0x0a /* Public */,
+      10,    2,   64,    2, 0x08 /* Private */,
+      11,    1,   69,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::Int,    4,    5,
@@ -2787,12 +2787,12 @@ void QtFlagPropertyManager::flagNamesChanged(QtProperty * _t1, const QStringList
 }
 struct qt_meta_stringdata_QtSizePolicyPropertyManager_t {
     QByteArrayData data[10];
-    char stringdata[130];
+    char stringdata[129];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtSizePolicyPropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtSizePolicyPropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtSizePolicyPropertyManager_t qt_meta_stringdata_QtSizePolicyPropertyManager = {
     {
@@ -2810,7 +2810,7 @@ QT_MOC_LITERAL(9, 107, 21)
     "QtSizePolicyPropertyManager\0valueChanged\0"
     "\0QtProperty*\0property\0val\0setValue\0"
     "slotIntChanged\0slotEnumChanged\0"
-    "slotPropertyDestroyed\0"
+    "slotPropertyDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -2828,13 +2828,13 @@ static const uint qt_meta_data_QtSizePolicyPropertyManager[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   39,    2, 0x06,
+       1,    2,   39,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       6,    2,   44,    2, 0x0a,
-       7,    2,   49,    2, 0x08,
-       8,    2,   54,    2, 0x08,
-       9,    1,   59,    2, 0x08,
+       6,    2,   44,    2, 0x0a /* Public */,
+       7,    2,   49,    2, 0x08 /* Private */,
+       8,    2,   54,    2, 0x08 /* Private */,
+       9,    1,   59,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QSizePolicy,    4,    5,
@@ -2916,12 +2916,12 @@ void QtSizePolicyPropertyManager::valueChanged(QtProperty * _t1, const QSizePoli
 }
 struct qt_meta_stringdata_QtFontPropertyManager_t {
     QByteArrayData data[13];
-    char stringdata[194];
+    char stringdata[193];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtFontPropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtFontPropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtFontPropertyManager_t qt_meta_stringdata_QtFontPropertyManager = {
     {
@@ -2944,7 +2944,7 @@ QT_MOC_LITERAL(12, 163, 29)
     "slotIntChanged\0slotEnumChanged\0"
     "slotBoolChanged\0slotPropertyDestroyed\0"
     "slotFontDatabaseChanged\0"
-    "slotFontDatabaseDelayedChange\0"
+    "slotFontDatabaseDelayedChange"
 };
 #undef QT_MOC_LITERAL
 
@@ -2962,16 +2962,16 @@ static const uint qt_meta_data_QtFontPropertyManager[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   54,    2, 0x06,
+       1,    2,   54,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       6,    2,   59,    2, 0x0a,
-       7,    2,   64,    2, 0x08,
-       8,    2,   69,    2, 0x08,
-       9,    2,   74,    2, 0x08,
-      10,    1,   79,    2, 0x08,
-      11,    0,   82,    2, 0x08,
-      12,    0,   83,    2, 0x08,
+       6,    2,   59,    2, 0x0a /* Public */,
+       7,    2,   64,    2, 0x08 /* Private */,
+       8,    2,   69,    2, 0x08 /* Private */,
+       9,    2,   74,    2, 0x08 /* Private */,
+      10,    1,   79,    2, 0x08 /* Private */,
+      11,    0,   82,    2, 0x08 /* Private */,
+      12,    0,   83,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QFont,    4,    5,
@@ -3059,12 +3059,12 @@ void QtFontPropertyManager::valueChanged(QtProperty * _t1, const QFont & _t2)
 }
 struct qt_meta_stringdata_QtColorPropertyManager_t {
     QByteArrayData data[9];
-    char stringdata[109];
+    char stringdata[108];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtColorPropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtColorPropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtColorPropertyManager_t qt_meta_stringdata_QtColorPropertyManager = {
     {
@@ -3080,7 +3080,7 @@ QT_MOC_LITERAL(8, 86, 21)
     },
     "QtColorPropertyManager\0valueChanged\0"
     "\0QtProperty*\0property\0val\0setValue\0"
-    "slotIntChanged\0slotPropertyDestroyed\0"
+    "slotIntChanged\0slotPropertyDestroyed"
 };
 #undef QT_MOC_LITERAL
 
@@ -3098,12 +3098,12 @@ static const uint qt_meta_data_QtColorPropertyManager[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   34,    2, 0x06,
+       1,    2,   34,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       6,    2,   39,    2, 0x0a,
-       7,    2,   44,    2, 0x08,
-       8,    1,   49,    2, 0x08,
+       6,    2,   39,    2, 0x0a /* Public */,
+       7,    2,   44,    2, 0x08 /* Private */,
+       8,    1,   49,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QColor,    4,    5,
@@ -3183,12 +3183,12 @@ void QtColorPropertyManager::valueChanged(QtProperty * _t1, const QColor & _t2)
 }
 struct qt_meta_stringdata_QtCursorPropertyManager_t {
     QByteArrayData data[7];
-    char stringdata[73];
+    char stringdata[72];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    offsetof(qt_meta_stringdata_QtCursorPropertyManager_t, stringdata) + ofs \
-        - idx * sizeof(QByteArrayData) \
+    qptrdiff(offsetof(qt_meta_stringdata_QtCursorPropertyManager_t, stringdata) + ofs \
+        - idx * sizeof(QByteArrayData)) \
     )
 static const qt_meta_stringdata_QtCursorPropertyManager_t qt_meta_stringdata_QtCursorPropertyManager = {
     {
@@ -3201,7 +3201,7 @@ QT_MOC_LITERAL(5, 59, 3),
 QT_MOC_LITERAL(6, 63, 8)
     },
     "QtCursorPropertyManager\0valueChanged\0"
-    "\0QtProperty*\0property\0val\0setValue\0"
+    "\0QtProperty*\0property\0val\0setValue"
 };
 #undef QT_MOC_LITERAL
 
@@ -3219,10 +3219,10 @@ static const uint qt_meta_data_QtCursorPropertyManager[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   24,    2, 0x06,
+       1,    2,   24,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       6,    2,   29,    2, 0x0a,
+       6,    2,   29,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::QCursor,    4,    5,
